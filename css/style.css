@@ -40,10 +40,6 @@ nav {
     background-color: #2deee5;
 }
 
-main {
-    background-color: #cbd7fd;
-}
-
 aside {
     background-color: #fdcef8;
 }
@@ -68,6 +64,11 @@ aside, nav {
 
 main {
     flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    height: 400px;
 }
 
 @media (max-width: 600px) {
@@ -100,4 +101,35 @@ main {
 
 .menu:hover {        
     background-color: #efefef;
+}
+
+.img-google img{
+    margin-top: 70px;
+    margin-bottom: 40px;
+    margin-left: 40%;
+    width: 20%;
+    height: 15%px;
+}
+
+.input-search {
+    margin-left: -420px;
+}
+.input-search input{
+    margin-top: 15%;
+    width: 350%;
+    height: 3rem;
+    border-radius: 25px;
+    border: 1px solid;
+    border-color:#fdcef8;
+}
+
+.input-search input:hover {    
+    box-shadow: 1px 4px #2deee5;
+}
+
+.input-search i {
+    position: absolute;
+    margin-top: -26px;
+    margin-left: 10px;
+    filter: brightness(10%);
 }
