@@ -223,27 +223,27 @@ main {
 
 @media (max-width:600px) {
     footer {
-        margin-top: 30%;
+        margin-top: 85%;        
     }
 
     .sobre-google {
-        height: 120px;
+        height: 50px;
         flex-direction: column;
     }       
 
     .input-search input{
         margin-left: 60%;
-        width: 220%;
+        width: 350px;
     }
 
     .searchIcon {        
     margin-top: -30px;
-    margin-left: 120px;   
+    margin-left: 220px;   
     }
 
     .voiceIcon {             
         margin-top: -30px;
-        margin-left: 460px;            
+        margin-left: 530px;            
     }
 
     .menu-footer {
