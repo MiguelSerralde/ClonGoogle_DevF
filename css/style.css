@@ -43,7 +43,7 @@ aside {
 }
 
 footer {    
-    margin-top: 16%;
+    margin-top: 16%;    
 }
 
 .middle {
@@ -167,7 +167,7 @@ main {
     cursor: pointer;
     border: 1px solid #9ab4ceb7;
 }
-
+/************************************************          Footer        ************************************************/
 .pais {
     font-size: 15px;
     height: 40px;
@@ -178,7 +178,7 @@ main {
     background-color: #f2f2f2;
 }
 
-.sobre-google {
+.sobre-google {    
     display: flex;
     align-items: center;
     font-size: 15px;
@@ -198,31 +198,61 @@ main {
 }
 
 .privacidad {
-    margin-left: 20%;
+    display: flex;
+    margin-left: 15%;
 }
 
 .menu-footer {
+    display: flex;
     margin-right: 35%;
 }
 
-@media (max-width:800px) {
+.etiqueta-sobre {
+    width: 125px;
+    margin-right: 0;
+}
+
+.etiqueta{
+    width: 100px;
+    margin-right: 0;
+}
+
+.etiqueta-busqueda {
+    width: 220px;
+}
+
+@media (max-width:600px) {
     .sobre-google {
         height: 120px;
         flex-direction: column;
     }       
 
     .input-search input{
-        margin-left: 50%;
+        margin-left: 40%;
         width: 250%;
     }
 
     .searchIcon {        
     margin-top: -30px;
-    margin-left: 100px;   
+    margin-left: 90px;   
     }
 
     .voiceIcon {             
         margin-top: -30px;
         margin-left: 480px;            
+    }
+
+    .menu-footer {
+        display: block;   
+        margin-right: 0;                  
+    }     
+
+    .sobre-google {        
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .privacidad {        
+        display: block;
     }
 }
