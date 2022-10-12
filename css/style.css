@@ -223,7 +223,7 @@ main {
 
 @media (max-width:600px) {
     footer {
-        margin-top: 85%;        
+        margin-top: 65%;        
     }
 
     .sobre-google {
@@ -269,5 +269,11 @@ main {
     .pais {
         justify-content: center;
         font-size: 12px;
+    }
+
+    .img-google img{        
+        width: 220px;
+        height: 110px;
+        margin-left: 0;
     }
 }
