@@ -222,24 +222,28 @@ main {
 }
 
 @media (max-width:600px) {
+    footer {
+        margin-top: 30%;
+    }
+
     .sobre-google {
         height: 120px;
         flex-direction: column;
     }       
 
     .input-search input{
-        margin-left: 40%;
-        width: 250%;
+        margin-left: 60%;
+        width: 220%;
     }
 
     .searchIcon {        
     margin-top: -30px;
-    margin-left: 90px;   
+    margin-left: 120px;   
     }
 
     .voiceIcon {             
         margin-top: -30px;
-        margin-left: 480px;            
+        margin-left: 460px;            
     }
 
     .menu-footer {
@@ -262,4 +266,8 @@ main {
         margin-left: 10px;    
     }
     
+    .pais {
+        justify-content: center;
+        font-size: 12px;
+    }
 }
