@@ -250,9 +250,16 @@ main {
     .sobre-google {        
         flex-direction: column;
         margin-left: 0;
+        font-size: 12px;
     }
 
     .privacidad {        
         display: block;
+        font-size: 12px;
     }
+
+    .sobre-google a {        
+        margin-left: 10px;    
+    }
+    
 }
