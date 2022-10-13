@@ -239,14 +239,19 @@ footer a {
     .pais {
         font-size: 12px;
         justify-content: center;
+        margin-top: 10px;        
     }
 
+    .privacidad {
+        margin-left: 0;
+    }
+    
     .etiqueta-sobre {
         margin-left: 10px
     }
 
     main {
-        margin-bottom: 30%;
+        margin-bottom: 25%;
     }
 
     footer a {
